@@ -7,3 +7,7 @@ I used return response.json() in the first .then() to pass the parsed response t
 A Promise represents a value that will be available after an asynchronous operation finishes. In this code, the fetch request returns a Promise while the dictionary server processes the request.
 
 If the API is down or the request fails, an error can occur. The `.catch()` block handles the error and displays a clear error message instead of letting the program fail without an explanation.
+
+### Phase 3
+
+Using the Fetch API allows the page to update only the dictionary results instead of reloading the entire page. This makes the application feel faster and smoother because the user can search for another word without waiting for the whole page to reload.
